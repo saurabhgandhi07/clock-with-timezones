@@ -1,0 +1,20 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.mat-card {
+    font-weight: 500;
+    font-size: 90px;
+    height: 215px;
+    width: 515px;
+    text-align: center;
+    font-family: 'Orbitron';
+    background-color: black;
+    color: white
+}
