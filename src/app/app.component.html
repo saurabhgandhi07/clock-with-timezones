@@ -18,7 +18,7 @@
                 <mat-label>Time Zone</mat-label>
                 <mat-select [(ngModel)]="selectedTimeZone" (change)="getTimeZone($event.target.value)">
                     <mat-option *ngFor="let timeZone of timeZones" [value]="timeZone.lookupDescription">
-                        {{timeZone.lookupName+" "+"("+timeZone.lookupCode+")"}}
+                        {{timeZone.lookupDescription+" "+"("+timeZone.lookupCode+")"}}
                     </mat-option>
                 </mat-select>
             </mat-form-field>
